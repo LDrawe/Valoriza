@@ -26,7 +26,7 @@ export class CreateTags1644976090804 implements MigrationInterface {
                     default: 'now()'
                 }
             ]
-        }))
+        }));
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
